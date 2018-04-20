@@ -8,7 +8,11 @@ import Resume from './pages/Resume.js';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <div>
+        <div className='title-name'>
+          <p>Michael Hawley</p>
+        </div>
+        <Router>
           <div className="App">
             <ul>
               <li>
@@ -28,7 +32,8 @@ class App extends Component {
               <Route component={NoMatch} />
             </Switch>
           </div>
-      </Router>
+        </Router>
+      </div>
     );
   }
 }
