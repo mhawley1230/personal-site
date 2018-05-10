@@ -6,8 +6,17 @@ import NoMatch from './pages/NoMatch.js';
 import Resume from './pages/Resume.js';
 
 // import '../../js/materialize.js';
+// document.addEventListener('DOMContentLoaded', function() {
+//   var elems = document.querySelectorAll('.sidenav');
+//   var instances = M.Sidenav.init(elems, options);
+// });
+//
+// $(document).ready(function(){
+//   $('.sidenav').sidenav();
+// });
 
 class App extends Component {
+
   render() {
     return (
       <div>
